@@ -47,4 +47,4 @@ jobs:
       testResultsFormat: VSTest
       testResultsFiles: '**/*.trx' 
 
-- task: PublishBuildArtifacts@1
+  - task: PublishBuildArtifacts@1
